@@ -1,0 +1,12 @@
+.container{
+    @apply grid grid-cols-1  h-screen w-1/2 p-96 ml-32 mt-40 
+}
+
+
+.itemsContent{
+    @apply bg-white p-20 h-24 hover:border border-gray-100 
+    rounded-lg hover:transform hover:transition hover:scale-150 
+    /* focus:border-black focus:bg-white border-2  focus:outline-none 
+    focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400 */
+    /* leading-tight focus:outline-none  focus:border-green-100  */
+}

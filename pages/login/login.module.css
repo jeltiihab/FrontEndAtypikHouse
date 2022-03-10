@@ -1,0 +1,68 @@
+.loginContainer {
+    @apply grid gap-4 md:grid-cols-2 sm:grid-cols-1
+}
+
+.leftSide {
+    @apply  mt-10 relative;
+}
+.leftSideRegister {
+    @apply mt-10 relative grid md:grid-cols-2 sm:grid-cols-1
+}
+
+.AtypikhouseLabel {
+    @apply text-3xl font-bold;
+}
+
+.label {
+    @apply leading-10 text-white text-lg font-bold absolute top-1/3 w-full text-center;
+}
+
+.welcomeMsg {
+    @apply absolute top-10 w-full text-center;
+}
+
+.loginForm {
+    @apply rounded px-8 pt-6 pb-8 mb-20 flex flex-col;
+}
+
+.loginButton {
+    @apply bg-secondary w-40 rounded-full text-white font-bold py-1.5 px-4;
+}
+
+.forgotpasswordLabel{
+    @apply text-gray-500 my-6 cursor-pointer;
+}
+
+.registerlink {
+    @apply cursor-pointer text-blue-500
+}
+
+.rightSide {
+    @apply h-screen relative;
+}
+
+.layerDiv {
+    @apply absolute top-0 left-0 w-full h-full bg-gradient-to-b from-red-500 bg-opacity-25;
+}
+
+.partnerLoginButton {
+    @apply bg-secondary hover:bg-red-400 text-white my-6 py-1.5 px-4 rounded-full;
+}
+
+.loginButton {
+    @apply bg-secondary w-40 rounded-full text-white font-bold py-1.5 px-4;
+}
+
+.label {
+    @apply leading-10 text-white text-lg font-bold absolute top-1/3 w-full text-center;
+}
+
+.welcomeMsg {
+    @apply absolute top-10 w-full text-center;
+}
+.formInputsContainer {
+    @apply relative grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-x-12 gap-y-4 px-12 mb-4 h-auto
+}
+.middleInputContainer {
+    @apply relative grid md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 md:col-span-2 gap-12
+}

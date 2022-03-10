@@ -1,0 +1,72 @@
+.chevronLeft{
+    @apply p-8 lg:hidden sm:visible md:visible
+}
+.containerTop{
+    @apply flex items-center  p-10 px-10 mb-20 m-20  border-0 sm:mb-32 sm:-ml-10 md:ml-10 sm:mr-40 md:mr-20
+}
+
+.containerUser{
+    @apply flex flex-col h-24 px-0 
+}
+
+.contentUser{
+    @apply flex flex-col  items-center w-full max-w-xl p-4 ml-20  rounded-3xl md:flex-row  sm:rounded-l-3xl sm:shadow-2xl sm:transition-transform sm:transform sm:hover:scale-125 
+}
+
+.contentImg{
+    @apply flex -mt-28 md:-my-16 md:-ml-32
+}
+
+.img{
+    @apply w-auto h-48 rounded-t-sm rounded-r-3xl sm:rounded-full 
+}
+
+
+.containerRight{
+    @apply flex flex-col space-y-4 cursor-pointer
+}
+
+.containerRight{
+    @apply flex flex-col items-center md:items-start px-4 
+}
+
+.text{
+    @apply sm:flex sm:flex-col sm:items-center text-2xl font-medium
+}
+.infos{
+    @apply text-xl
+}
+.updateProfil{
+    @apply text-base font-medium text-gray-400 underline
+    
+}
+
+.container{
+    @apply grid grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-2 cursor-pointer
+}
+
+
+.containerBottom{
+    @apply px-16
+}
+.containerItem{
+    @apply flex flex-col p-4 bg-white shadow-lg rounded h-48
+}
+
+.infoItems{
+    @apply mb-8 w-4
+}
+
+
+.iconSize{
+    @apply w-4
+}
+
+
+.unsubscribe{
+    @apply flex flex-col items-center mt-0 mb-96
+}
+
+.unsubscribeClick{
+    @apply underline hover:text-gray-400 cursor-pointer font-light
+}

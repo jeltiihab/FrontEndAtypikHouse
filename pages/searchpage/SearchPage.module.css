@@ -1,0 +1,15 @@
+.propertiesContainer{
+    @apply grid grid-cols-3 p-32 md:grid-cols-3 sm:grid-cols-1 gap-y-10 gap-x-10
+}
+
+.searchContainerCity {
+    @apply relative flex justify-center mt-28
+}
+
+.titleContainer {
+    @apply mt-10
+}
+
+.title {
+    @apply text-4xl font-semibold text-center
+}

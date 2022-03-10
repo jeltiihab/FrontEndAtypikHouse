@@ -1,0 +1,80 @@
+.containerInfo{
+    @apply px-5 
+}
+.titleInfo{
+    @apply text-black text-3xl  font-semibold
+}
+.container{
+    @apply lg:grid lg:grid-cols-2 
+    sm:mb-32 sm:flex-row sm:items-center sm:grid sm:grid-cols-1 sm:gap-6 
+    md:grid md:grid-cols-1 p-2  px-2 mb-20 lg:rounded-sm lg:shadow-sm
+}
+
+
+
+.containerLeft{
+    @apply flex  p-4 rounded-sm shadow-sm
+}
+.content{
+    @apply border-b-2 border-solid border-gray-100 
+}
+
+.z{
+    @apply w-full 
+}
+
+.text{
+    @apply text-sm font-semibold
+}
+
+.name{
+    @apply text-gray-500
+}
+
+.containerInput{
+    @apply w-auto
+}
+.input{
+    @apply appearance-none block w-full bg-white
+    text-black border border-gray-200 rounded-md py-2 px-4 mb-3 
+    leading-tight focus:outline-none  focus:border-green-100 
+    text-sm shadow focus:ring 
+}
+
+
+.button{
+    @apply ml-48
+}
+
+.modify{
+    @apply text-base font-medium cursor-pointer text-green-600 underline
+}
+
+
+/* ________________________ */
+
+.divBtn{
+    @apply  flex flex-col justify-center items-center relative 
+    bottom-0 left-10 right-0 mt-4 ml-52 mb-4 
+}
+
+.divdivBtn{
+    @apply md:w-1/3
+}
+
+.btn{
+    @apply  bg-green-800  text-gray-200 py-2 px-5 rounded-full shadow-md
+    text-lg hover:bg-gray-800 hover:border-gray-100 
+}
+
+/* ________________________ */
+
+
+.containerRight{
+    @apply p-4 rounded-sm
+}
+
+
+.containerOther{
+    @apply  bg-blue-900
+}

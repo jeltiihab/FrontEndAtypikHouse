@@ -1,0 +1,31 @@
+.navbar {
+    @apply sm:flex md:flex flex flex-row items-center justify-between px-8 h-20  bg-white shadow-md;
+}
+
+.logo {
+    @apply  h-16 w-72 relative;
+}
+
+.navItems {
+    @apply hidden md:flex flex-row self-end h-12;
+}
+
+.navItem {
+    @apply hidden md:flex w-20  hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center;
+}
+
+.user {
+    @apply text-white bg-secondary sm:flex items-center space-x-2 border-2 p-2 rounded-full cursor-pointer;
+}
+
+.selectedNavItem {
+    @apply text-gray-700 border-b-2 border-gray-700 bg-gradient-to-b from-white to-gray-100;
+}
+
+.actions {
+    @apply bg-white hover:bg-gray-50 border-2 border-gray-900 text-sm text-gray-900 py-3 px-5 rounded-lg font-medium tracking-wide leading-none;
+}
+
+.redWideButton {
+    @apply hidden md:flex bg-danger w-48 rounded-full text-white font-bold py-2 px-2 md:hidden lg:flex sm:hidden justify-center;
+}

@@ -1,0 +1,29 @@
+.container{
+    @apply w-1/2 mb-96  sm:px-4 
+}
+
+
+.itemsContent{
+    @apply p-2 h-96
+    /* leading-tight focus:outline-none  focus:border-green-100  */
+}
+
+
+
+.loadContainer{
+    @apply grid grid-cols-4 gap-10 h-32 pt-4
+}
+
+
+.loadImage{
+    @apply col-span-2 h-40 w-11/12 sm:px-14 sm:py-10 border border-black lg:px-32 lg:py-10  
+}
+
+
+.svgImage{
+    @apply h-16 w-10
+}
+
+.text{
+    @apply text-sm font-normal text-gray-500
+}

@@ -1,0 +1,51 @@
+
+.container{
+    @apply h-screen md:flex 
+}
+
+.containerLeft{
+    @apply  overflow-hidden md:flex w-full bg-gradient-to-bl -mt-60 pl-10 hidden
+    from-yellow-400 to-red-800  justify-around items-center 
+    transition-all ease-in-out duration-1000 transform translate-x-0
+}
+
+
+.cercleTop1{
+    @apply absolute -ml-10 mt-14 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+
+.cercleBottom1{
+    @apply absolute  -mb-80 mt-96  -ml-80 left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+.cercleBottom2{
+    @apply absolute mt-80 ml-32 -left-10 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+.thanks{
+    @apply text-yellow-400
+}
+
+.title{
+    @apply text-white font-bold text-4xl font-sans
+}
+
+.welcome{
+    @apply text-white mt-1
+}
+/* _____________ */
+.question{
+    @apply text-white mt-2 font-bold text-2xl
+}
+
+.containerRight{
+    @apply flex md:w-1/2 justify-center items-center
+}
+
+.itemsContent{
+        @apply flex justify-center items-center w-screen h-screen px-4
+}
+

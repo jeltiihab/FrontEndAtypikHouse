@@ -1,0 +1,35 @@
+.ariane{
+    @apply pl-10 lg:table-row lg:w-screen mt-4 
+}
+
+.nav-ariane{
+    @apply flex flex-wrap -mx-4 mb-1 pl-10 pt-1 md:w-1/2 
+}
+
+.navol{
+    @apply inline-flex items-center space-x-1 md:space-x-2
+}
+
+.navliHome{
+    @apply inline-flex items-center
+}
+
+.navliaHome{
+    @apply text-black hover:text-gray-900 inline-flex items-center
+}
+
+.svgHome{
+    @apply w-3 h-3 mr-2.5 font-medium
+}
+
+.curruntContainer{
+   @apply flex items-center
+}
+
+.svgHouse{
+    @apply w-4 h-4 text-black
+}
+
+.spanContact{
+    @apply text-pink-800 ml-1 md:ml-2 text-sm font-medium
+}

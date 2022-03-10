@@ -1,0 +1,22 @@
+
+.container{
+    @apply grid grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-2 cursor-pointer
+}
+
+
+.containerBottom{
+    @apply px-16
+}
+
+.containerItem{
+    @apply flex flex-col p-4 bg-white shadow-lg rounded h-48
+}
+
+.infoItems{
+    @apply mb-8 w-4
+}
+
+
+.iconSize{
+    @apply w-4
+}

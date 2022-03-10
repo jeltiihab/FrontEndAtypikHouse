@@ -1,0 +1,7 @@
+.spinnerContainer {
+
+    @apply flex flex-col items-center justify-center min-h-screen text-gray-800
+}
+.spinnertest {
+    @apply mb-4 text-6xl animate-spin
+}

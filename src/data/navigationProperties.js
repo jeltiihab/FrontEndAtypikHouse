@@ -1,0 +1,1 @@
+export default [ 'Cabanes', 'Bulles',  'En Amoureux',  'En famille', 'A l aventure'];

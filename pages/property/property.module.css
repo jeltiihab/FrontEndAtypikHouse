@@ -1,0 +1,73 @@
+.container {
+    @apply m-6
+}
+
+.propertyTitle {
+    @apply my-4
+}
+
+.infoBar {
+    @apply grid md:grid-cols-2 sm:grid-cols-1
+}
+.propertyPictures {
+    @apply shadow-lg rounded max-w-full w-full h-[400px] align-middle border-none
+}
+
+.infoBarLeftSide {
+    @apply grid md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1
+}
+
+.infoBarItems {
+    @apply flex items-center
+}
+.infoBarIcons {
+    @apply text-green-800 w-6 mx-6
+}
+
+.infoBarStarIcon {
+    @apply text-yellow-500 w-6 mx-6
+}
+
+.infoBarRightSide {
+    @apply flex items-center justify-end
+}
+
+.galleryContainer {
+    @apply grid sm:grid-cols-1 gap-x-8 mt-6
+}
+
+.leftSideGallery {
+    @apply grid grid-flow-row-dense sm:grid-cols-1 sm:grid-rows-4 md:grid-cols-2 md:grid-rows-2 gap-x-1 gap-y-1
+}
+
+.tenantInfos {
+    @apply flex items-stretch items-center my-6
+}
+
+.tenantIcon {
+    @apply h-8 ml-10 text-white bg-secondary rounded-full
+}
+
+.propertyDescription {
+    @apply text-justify
+}
+
+.descriptionAndReservationBlock {
+    @apply gap-10 grid md:grid-cols-2 lg:grid-cols-2 my-6 sm:grid-cols-1
+}
+
+.reservationForm {
+    @apply flex  flex-col justify-center items-center items-center shadow-lg rounded
+}
+.buttonDiv {
+    @apply text-center m-3
+}
+.equipementsImagesContainer {
+    @apply md:w-1/2 sm:w-full my-5
+}
+.equipementsImages {
+    @apply grid md:grid-cols-8 sm:grid-cols-3 gap-y-6 my-5
+}
+.mapStyle{
+    @apply flex flex-col mt-5 mb-5
+}

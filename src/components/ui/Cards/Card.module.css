@@ -1,0 +1,18 @@
+.cardContainer {
+    @apply w-72 h-auto bg-white shadow-md border border-gray-200 rounded-lg max-w-sm
+}
+
+.imageContainer {
+    @apply relative h-[170px]
+}
+
+.propertyTitle {
+    @apply text-gray-900 font-bold tracking-tight mb-2 text-center
+}
+
+.propertyLocation {
+    @apply text-green-900 text-sm my-5 text-center
+}
+.cardContent {
+    @apply text-center
+}

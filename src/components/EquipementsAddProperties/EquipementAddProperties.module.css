@@ -1,0 +1,32 @@
+.container{
+    @apply w-1/2  mb-32
+}
+
+
+.itemsContent{
+    @apply  p-2
+    /* leading-tight focus:outline-none  focus:border-green-100  */
+}
+
+
+
+.EquipementContainer{
+    @apply grid grid-cols-2 gap-10  sm:grid-cols-3 sm:pl-32 md:grid-cols-2 
+}
+
+
+.itemContainer{
+    @apply  px-20 py-14 h-40  border-gray-300  border rounded-lg hover:shadow-lg
+    active:border-black active:border-2 pointer-events-auto
+    focus:outline-black
+     
+}
+
+
+.icons{
+    @apply mb-2
+}
+
+.text{
+    @apply text-lg text-gray-500 -left-px
+}

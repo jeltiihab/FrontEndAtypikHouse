@@ -1,0 +1,100 @@
+
+.container{
+    @apply h-screen md:flex 
+
+}
+
+.containerLeft{
+    @apply relative overflow-hidden md:flex w-1/2 bg-gradient-to-bl from-yellow-400 to-red-800  justify-around items-center z-10
+}
+
+
+.cercleTop1{
+    @apply absolute -bottom-10 -top-40 -right-0 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+.cercleTop2{
+    @apply absolute -top-20 -right-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+.cercleBottom1{
+    @apply absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+.cercleBottom2{
+    @apply absolute -left-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+/* _____________ */
+
+
+.containerRight{
+    @apply  w-1/2 
+}
+
+.closeToHome{
+    @apply p-4 
+}
+
+.itemsContent{
+    @apply  w-screen  px-4 sm:mt-52
+}
+
+/* ______________ */
+.startButton{
+    @apply sm:-ml-96 sm:-mt-4  lg:-ml-80 md:-ml-40 lg:relative 
+}
+
+
+
+.cercleTop1{
+    @apply absolute -top-40 -right-0 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+.cercleTop2{
+    @apply absolute  top-20 right-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+.cercleBottom1{
+    @apply absolute bottom-32 right-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+.cercleBottom2{
+    @apply absolute bottom-40 left-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8
+}
+
+
+/* __________________ */
+
+.close{
+    @apply fixed m-10  w-40 
+     text-gray-700 
+     rounded-lg h-10 
+}
+
+
+.prevNext{
+    @apply flex space-x-80 pl-20 
+}
+
+
+
+.alignPrev{
+    @apply flex hover:bg-gray-200 rounded-lg w-24 items-center justify-center
+}
+
+.alignNext{
+    @apply flex hover:bg-gray-700 rounded-lg w-32 items-center justify-center bg-black 
+}
+
+.textNext{
+    @apply text-white font-serif font-semibold 
+}
+
+
+.textClosePrevNext{
+    @apply text-black font-medium
+}
+

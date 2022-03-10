@@ -1,0 +1,32 @@
+.container {
+    @apply  mt-auto
+}
+
+.footerContainer {
+    @apply w-full bg-gray-200 h-auto grid md:grid-cols-4 p-5 md:gap-x-8 sm:gap-y-4 sm:grid-cols-1
+}
+.Description {
+    @apply text-center
+}
+
+.Menudiv {
+    @apply grid col-span-2 md:grid-cols-4 md:gap-x-6 sm:grid-cols-2 sm:gap-y-6 p-5
+}
+.NewsLetterDiv {
+    @apply text-center
+}
+.formInputs {
+    @apply shadow appearance-none rounded-full w-44 px-3;
+}
+.h3Titles {
+    @apply text-red-400 font-bold cursor-pointer
+}
+.SocialIcons {
+    @apply text-green-800 w-8 mx-1
+}
+.socialMediaIconsDiv {
+    @apply flex
+}
+.copyrightDiv {
+    @apply text-center text-white bg-green-800 p-1
+}

@@ -1,0 +1,9 @@
+.errorSpan {
+    @apply justify-center flex items-center font-medium tracking-wide text-red-500 text-xs mt-1 ml-1
+}
+.flatInput {
+    @apply appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500
+}
+.roundInput {
+    @apply shadow appearance-none rounded-full w-60 py-2 px-3 mb-3;
+}

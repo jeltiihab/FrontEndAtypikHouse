@@ -1,0 +1,25 @@
+.container{
+    @apply bg-white  
+}
+
+
+.content{
+    @apply flex flex-wrap 
+} 
+
+.contentDetails{
+    @apply w-full mb-2
+}
+
+.details{
+    @apply mb-8 bg-gray-100 rounded-sm p-8 transition-opacity 
+}
+
+
+.summary{
+    @apply text-xl font-semibold rounded-md py-2 px-4
+}
+
+.text{
+    @apply text-sm text-gray-500
+}

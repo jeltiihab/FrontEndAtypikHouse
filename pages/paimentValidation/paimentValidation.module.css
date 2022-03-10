@@ -1,0 +1,59 @@
+.container {
+    @apply text-lg
+}
+.titles{
+    @apply text-4xl text-green-800 my-5
+}
+.validatePaimentcontainer {
+    @apply grid md:grid-cols-2 gap-6 m-6 sm:grid-cols-1
+}
+.leftRightSide {
+    @apply shadow-xl p-12 rounded
+}
+.propertyInfos {
+    @apply grid md:grid-cols-3 sm:grid-cols-1
+}
+
+.propertyPicture {
+    @apply shadow border-green-800 border-solid border-2
+}
+.infoBarItems {
+    @apply flex items-center py-1
+}
+.infoBarIcons {
+    @apply text-green-800 w-6 mx-6
+}
+.infoBarStarIcon {
+    @apply text-yellow-500 w-6 mx-6
+}
+
+.reservationInfos {
+    @apply grid grid-cols-2 my-3
+}
+
+.actionLink {
+    @apply text-green-800 underline text-right
+}
+
+.paymentMethod {
+    @apply grid md:grid-cols-2 sm:grid-cols-1 mx-32
+}
+
+.paymentMethodItems {
+    @apply sm:flex md:flex flex-row items-center justify-around
+}
+.formInputs {
+    @apply shadow appearance-none rounded-full w-60 py-2 px-3 mb-3;
+}
+.inputContainer {
+    @apply text-center my-5
+}
+.reservationButton {
+    @apply text-center
+}
+.conditondutilisation {
+    @apply text-center text-green-800 underline my-5
+}
+.paimentIcons {
+    @apply sm:w-64
+}

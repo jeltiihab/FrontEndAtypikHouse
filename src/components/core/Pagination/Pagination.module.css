@@ -1,0 +1,35 @@
+.container{
+    @apply flex flex-col items-center my-12
+}
+
+.contentItems{
+    @apply flex flex-col text-gray-700
+}
+
+.contentLeft{
+    @apply h-8 w-8 mr-1 flex justify-center items-center rounded-full bg-gray-200 cursor-pointer
+}
+
+.SVGLeft .SSGRight{
+    @apply w-4 h-4
+}
+.number{
+    @apply flex h-8 font-medium rounded-full bg-gray-200
+}
+
+.numberOff{
+    @apply w-8 md:flex justify-center items-center hidden  cursor-pointer leading-5 transition duration-150 ease-in  rounded-full 
+}
+
+.numberActive{
+    @apply w-8 md:flex justify-center items-center hidden  cursor-pointer leading-5 transition duration-150 ease-in  rounded-full bg-pink-600 text-white 
+}
+
+.numberActivePlus{
+    @apply w-8 h-8 md:hidden flex justify-center items-center cursor-pointer leading-5 transition duration-150 ease-in rounded-full bg-pink-600 text-white
+}
+
+
+.contentRight{
+    @apply h-8 w-8 ml-1 flex justify-center items-center rounded-full bg-gray-200 cursor-pointer
+}

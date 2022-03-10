@@ -1,0 +1,32 @@
+.greenMdButton {
+    @apply bg-secondary w-40 rounded-full text-white font-bold py-1.5 px-4;
+}
+.greenWideButton {
+    @apply bg-secondary w-60 rounded-full text-white font-bold py-1.5 px-4;
+}
+.greenSmButton {
+    @apply text-center bg-secondary w-32 rounded-full text-white font-bold py-1.5 px-4;
+}
+
+.redLgButton {
+    @apply bg-danger w-52 rounded-full text-white font-bold py-1.5 px-4;
+}
+
+.redLargeSecondButton {
+    @apply bg-danger w-40 rounded-lg text-white font-bold py-1.5 px-4;
+}
+
+.redWideButton {
+    @apply bg-danger w-40 rounded-full text-white font-bold py-1.5 px-4;
+}
+
+.redMeduimButton {
+    @apply justify-center bg-danger w-24 rounded-full text-white font-bold py-1.5 px-4 m-4;
+}
+.redSquareButton {
+    @apply rounded-sm justify-center bg-danger w-44 text-white font-bold py-1.5 px-4 m-4;
+}
+
+.blackWideButton {
+    @apply bg-black w-32 rounded-lg text-white font-bold py-1.5 px-4;
+}

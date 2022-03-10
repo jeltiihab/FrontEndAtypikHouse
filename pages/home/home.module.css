@@ -1,0 +1,71 @@
+.homeContainer {
+    @apply justify-between
+}
+.banner {
+    @apply  h-[400px] relative grid place-items-center
+}
+
+.formInputs {
+    @apply shadow appearance-none rounded-full w-40 py-2 px-3 mb-3 text-center;
+}
+.buttonDiv {
+    @apply text-center
+}
+
+.ourOffres {
+    @apply p-12
+}
+.ourOffresTitle {
+    @apply text-center mb-10 text-3xl
+}
+.cardsDiv {
+    @apply grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6 justify-items-center px-10
+}
+.bannerMiddleBtns {
+    @apply absolute grid md:grid-cols-2 sm:grid-cols-1 sm:top-1/2
+}
+.bannerTitles {
+    @apply absolute top-1/4 text-white md:text-5xl sm:text-2xl font-bold p-6 text-center
+}
+.joinUsDiv {
+    @apply h-1/4 w-full bg-green-500
+}
+.heartIcon {
+    @apply text-red-500 w-6 mx-6 inline
+}
+
+.joinUsContainer {
+    @apply  h-[400px] relative grid place-items-center my-6 relative
+}
+.layerDiv {
+    @apply absolute left-0 w-full h-full bg-gradient-to-r from-green-700;
+}
+.label {
+    @apply absolute left-0 p-20 md:w-1/2 text-white text-2xl sm:w-full
+}
+.testimonialDiv {
+    @apply min-w-full min-h-screen flex items-center justify-center
+}
+.testimonialContainer {
+    @apply w-full bg-white px-5 py-16 md:py-24 text-gray-800
+}
+.Titles {
+    @apply text-2xl md:text-4xl font-bold mb-5 text-green-800
+}
+.testimonialCard {
+    @apply w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6
+}
+.SerachBar {
+    @apply flex sm:flex bg-white absolute top-6 rounded-full md:hidden items-center border-2 px-4 py-1
+}
+.searchIcon {
+    @apply bg-danger rounded-full text-white p-1 h-8 cursor-pointer
+}
+.smallcardsContainer {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+}
+
+.cardsContainer {
+    @apply grid md:grid-cols-4 sm:grid-cols-1 m-10
+}
+

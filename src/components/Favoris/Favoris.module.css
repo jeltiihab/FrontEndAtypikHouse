@@ -1,0 +1,30 @@
+.containerTop{
+    @apply p-4 px-4 mb-20 m-20 
+}
+
+.title{
+    @apply text-3xl text-black font-bold
+}
+.container{
+    @apply grid grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-2
+}
+
+.containerBottom{
+    @apply px-16
+}
+.containerItem{
+    @apply flex flex-col p-2
+}
+
+.infoItems{
+    @apply mb-8
+}
+
+
+.img{
+    @apply w-full  rounded-lg shadow-md h-60
+}
+
+.location{
+    @apply text-xl font-semibold text-black
+}

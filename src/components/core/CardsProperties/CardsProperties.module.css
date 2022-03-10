@@ -1,0 +1,144 @@
+.ContainerNav{
+    @apply flex items-center font-mono border-none border-gray-100  px-10
+    overflow-x-auto md:space-x-20 md:justify-between md:items-center 
+}
+.contentMove{
+    @apply  px-4 pt-4 my-10 -mx-3 shadow-md
+}
+.centerbar {
+    @apply flex flex-auto flex-row items-center justify-center px-2 py-4
+    bg-white visible top-0 w-screen h-full rounded-t-xl text-sm
+    overflow-y-auto sm:space-x-10  whitespace-nowrap
+
+    /* @apply flex items-center sm:space-x-4 overflow-y-auto sm:max-w-lg xl:max-w-5xl 2xl:max-w-7xl lg:max-w-3xl whitespace-nowrap */
+}
+
+.tabItem {
+    @apply block text-black cursor-pointer w-full h-full
+    border-b-2 border-gray-100 
+    
+}
+
+.tabItemActive {
+    @apply border-b-2 border-green-800 bg-opacity-25  text-black
+}
+
+.propertiesContainer {
+    @apply  font-mono bg-gray-50 bg-gradient-to-bl from-gray-50 to-gray-100 border-none border-gray-100 h-screen
+}
+
+.centerSide {
+    @apply flex justify-center pl-6 px-6 my-12 h-screen 
+}
+
+
+.centerCol{
+    @apply flex flex-col text-center w-full lg:w-5/6 bg-white p-5 rounded
+}
+.o{
+    @apply flex flex-row items-center justify-center px-8 py-4
+    bg-white visible top-0 w-screen h-full rounded-t-xl text-sm
+}
+.centerCards{
+    @apply flex flex-row items-center justify-center px-8 py-4
+    bg-white visible top-0 w-screen h-full rounded-t-xl text-sm
+}
+
+.tabItem {
+    @apply flex items-center justify-center 
+    text-gray-300 text-black cursor-pointer w-full h-full border-green-700
+    border-b-2 border-gray-100 
+    
+}
+
+.tabItemActive {
+    @apply border-b-2  bg-opacity-25  border-green-700 text-black
+}
+
+
+
+
+.cardContainer {
+   @apply flex py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out 
+}
+
+
+.cardContents{
+    @apply px-1 pt-1 bg-green-100 
+}
+
+
+/*  grid */
+
+.gridContent{
+    @apply  mt-4 pt-4 pl-32
+}
+
+
+.place{
+    @apply flex flex-col text-center w-full lg:w-5/6 bg-white p-1 rounded cursor-pointer
+
+}
+
+.size{
+    @apply h-0
+}
+
+.img{
+    @apply w-full object-cover object-center rounded-lg shadow-md
+}
+
+
+.contentAiOutlineHeart{
+    @apply absolute h-10 px-6 -mt-80  ml-64 hover:shadow-2xl active:scale-150
+    active:bg-green-800 transition transform duration-100 ease-out  bg-white rounded
+}
+
+.AiOutlineHeart{
+    @apply h-10 cursor-pointer
+}
+
+/*  */
+
+.properties{
+   @apply relative px-4 -mt-16
+}
+
+.contents{
+    @apply bg-white p-6 rounded-lg shadow-sm hover:shadow-lg
+}
+
+.itemsRooms{
+    @apply text-gray-600 uppercase text-xs font-semibold tracking-wider 
+}
+
+.itemsContents{
+    @apply flex flex-col
+}
+.title{
+   @apply mt-1 text-lg font-semibold uppercase leading-tight truncate
+}
+
+
+.contentPrice{
+    @apply mt-1
+}
+
+
+.price{
+    @apply text-gray-600 text-sm
+}
+
+.annotation{
+   @apply mt-6
+}
+
+.ratings{
+    @apply text-pink-800 font-semibold
+}
+
+
+.baseRating{
+    @apply text-sm text-gray-500
+}
+
